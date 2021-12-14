@@ -1,0 +1,25 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>CppWinFormsApp</Name>
+    <Description>
+    </Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>CppWinFormsApp</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="CppWinFormsApp1.vcxproj" File="CppWinFormsApp1.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">CppWinFormsApp1.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MyForm.cpp">MyForm.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MyForm.h">MyForm.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
