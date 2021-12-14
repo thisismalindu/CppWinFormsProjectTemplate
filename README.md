@@ -1,6 +1,7 @@
 # A Simple Windows Forms Application Project Template in C++/CLR.
 
 -  _Note: If  images in this article are blurry, right click on them and open in new tab._
+-  _Note: Download the VSIX from [here](https://marketplace.visualstudio.com/items?itemName=Sciber.cppwinformsproject). Otherwise, download the repo as a zip and put the zip in your Documents/Visual Studio {version eg:2019,2022}/Templates/Project Templates_
 
 Use this template to create a **Windows Forms Application** using **C++**. This is similar to the Windows Forms Application Project Template for C#, provided in VS by default.
 
